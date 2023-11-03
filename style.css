@@ -1,12 +1,3 @@
-* {
-box-sizing: border-box;   
-margin: 0;
-padding: 0;
-}
-
-section {
-}
-
 :root{
  --ff-header: 'Forum';
  --fs-header: 4rem;
@@ -16,16 +7,6 @@ section {
  --font-size:1rem;
 }
 
-.about_section h2{
-   font-family: var(--ff-header);
-   font-size: var(--fs-header);
-   font-weight: var(--fw-header);
-}
-
-.about_section p{
-   font-family: var(--ff-paragraph);
-   font-size: var(--fs-paragraph);
-}
 /************** navbar **********************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
@@ -46,6 +27,7 @@ section {
   margin:0;
   padding:0;
 }
+
 ul {
   list-style:none;
 }
@@ -222,3 +204,17 @@ body {
 
 /************************************/
 
+/************** about ***************/
+
+.about_section h2{
+  font-family: var(--ff-header);
+  font-size: var(--fs-header);
+  font-weight: var(--fw-header);
+}
+
+.about_section p{
+  font-family: var(--ff-paragraph);
+  font-size: var(--fs-paragraph);
+}
+
+/************************************/
