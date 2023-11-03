@@ -4,13 +4,31 @@ margin: 0;
 padding: 0;
 }
 
+
+:root{
+ --ff-header: 'Forum';
+ --fs-header: 4rem;
+ --fw-header: 400;
+ --ff-paragraph: 'Lato', sans-serif;
+ --fs-paragraph: 1.2rem;
+ --font-size:1rem;
+}
+
+.about_section h2{
+   font-family: var(--ff-header);
+   font-size: var(--fs-header);
+   font-weight: var(--fw-header);
+}
+
+.about_section p{
+   font-family: var(--ff-paragraph);
+   font-size: var(--fs-paragraph);
+}
+=======
 /************** nabar **********************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 
-:root {
-  --font-size:1rem;
-}
 .light-mode {
   --navbar-color: rgba(34, 34, 34, 0)000;
   --navbar-bg-color: #F0F0F0;  
@@ -202,3 +220,4 @@ body {
 }
 
 /************************************/
+
