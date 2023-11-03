@@ -3,3 +3,22 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
+:root{
+ --ff-header: 'Forum';
+ --fs-header: 4rem;
+ --fw-header: 400;
+ --ff-paragraph: 'Lato', sans-serif;
+ --fs-paragraph: 1.2rem;
+}
+
+.about_section h2{
+   font-family: var(--ff-header);
+   font-size: var(--fs-header);
+   font-weight: var(--fw-header);
+}
+
+.about_section p{
+   font-family: var(--ff-paragraph);
+   font-size: var(--fs-paragraph);
+}
