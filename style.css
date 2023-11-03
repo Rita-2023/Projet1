@@ -220,3 +220,21 @@ body {
 
 /************************************/
 
+/************** footer **************/
+
+.footer{
+  display: flex;
+  background-color: #000;
+  color: #FFF;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.footer nav ul{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+}
+
+/************************************/
