@@ -1,0 +1,23 @@
+/* navigation */
+
+/* header */
+
+/* section */
+section {
+    padding: .5rem;
+    margin: 0 auto;
+    max-width: 65ch;
+}
+
+section>article {
+    display: ;
+    padding: .5rem;
+    margin: 0 .5rem 1rem;
+    width: 45%;
+    border-radius: .5rem;
+    background-color: red;
+    box-shadow: -2px 5px 10px rgb(0 0 0 / 20%);
+    
+}
+
+/* footer */
