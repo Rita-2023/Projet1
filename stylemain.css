@@ -68,9 +68,9 @@ main {
  }
 
 .div-hr hr{
-width: 60%;
-opacity: 0.8;
-margin: 0 auto;
+    width: 60%;
+    opacity: 0.8;
+    margin: 0 auto;
 
 }
 
@@ -78,9 +78,9 @@ h2 {
     font-size: 3rem;
     margin: 1.5rem 0;
     padding-left: 0.5rem;
-    font-family: 'Forum';
 }
 
 h1, h2, h3 {
     font-family: 'Hind Siliguri';
+    font-weight: bolder;
 }

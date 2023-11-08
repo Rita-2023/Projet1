@@ -46,25 +46,26 @@ body {
 }
 
 .navbar {  
+  background-color: transparent;
   display:flex;
   align-items:center; 
   justify-content:space-between;   
   padding:10px;
-  font-size:1.1rem;
-  background:var(--navbar-bg-color);
+  /* background:var(--navbar-bg-color); */
   color:var(--navbar-color);
-  font-weight: bolder;
-  
+  font-weight: bolder;  
 }
 .navbar__links { 
-  display:flex;  
+  display:flex; 
+  font-size:1.1rem;
+  align-items: end; 
+  padding-top: 1.2rem;
 }
 
 .navbar__logo{
-   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-   border-bottom: 3px solid white;
    line-height: 2.2rem;
-   backdrop-filter: blur(10px);
+   padding-left: 1.2rem; 
+   font-size: 2.1rem;
 }
 .navbar__link { 
   padding:0 10px;
@@ -238,6 +239,8 @@ body {
   border-radius: .4rem;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+
 
 /************************************/
 
