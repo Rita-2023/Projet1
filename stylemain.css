@@ -7,11 +7,7 @@ main {
 .section-main {
     display: flex;
     flex-wrap: wrap;
-    padding: ;
-    margin: ;
-    width: ;
-    background-color: ;
-    }
+}
 
 .section-main article {
     width: 46.7%;
@@ -65,7 +61,21 @@ main {
     width: 60%;
 }
 
+.div-hr{
+
+ margin-top: 10rem;
+ padding-right: 0.5rem;
+ }
+
+.div-hr hr{
+width: 60%;
+opacity: 0.8;
+margin: 0 auto;
+
+}
+
 h2 {
-    font-size: 2rem;
-    font-family: ;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+    padding-left: 0.5rem;
 }
