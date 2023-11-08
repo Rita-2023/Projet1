@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Hind+Siliguri:wght@300;600&family=Titillium+Web:wght@300&display=swap');
+
 :root{
  --ff-header: 'Forum';
  --fs-header: 4rem;
@@ -8,8 +10,6 @@
 }
 
 /************** navbar **********************/
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
-
 
 .light-mode {
   --navbar-color: rgba(34, 34, 34, 0)000;
