@@ -234,6 +234,17 @@ body {
 display: flex;
 flex-direction: row;
 gap: 1rem;
+padding: 1rem;
+}
+
+.footer li a {
+text-decoration: none;
+color: #FFF;
+}
+
+.footer li a:hover {
+text-decoration: underline;
+text-decoration-color: #FFF;
 }
 
 /************************************/
