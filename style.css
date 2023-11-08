@@ -39,6 +39,8 @@ body {
   font-family: 'Titillium Web', 'sans-serif';
   background-color: #fafafafa;
 }
+
+
 .main-content {
   padding:1rem;
 }
@@ -206,16 +208,35 @@ body {
 /************************************/
 
 /************** about ***************/
+.about_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 4rem auto;
+}
+
+.about_section article{
+  display: flex;
+  align-items: center;
+}
 
 .about_section h2{
-  font-family: var(--ff-header);
-  font-size: var(--fs-header);
-  font-weight: var(--fw-header);
+  font-weight: bolder;
+  margin: 1.5rem 0;
+
 }
 
 .about_section p{
-  font-family: var(--ff-paragraph);
+  width: 70%;
+  padding-left: 0.8rem;
   font-size: var(--fs-paragraph);
+}
+
+.about_section img{
+  width: 25%;
+  border-radius: .4rem;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 /************************************/
