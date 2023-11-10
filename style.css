@@ -36,7 +36,7 @@ ul {
 body {
   margin:0;
   font-size:var(--font-size);
-  font-family: 'Titillium Web', 'sans-serif';
+  font-family: 'Hind Siliguri', 'Titillium Web', 'sans-serif';
   background-color: #fafafafa;
 }
 
@@ -243,6 +243,12 @@ body {
 
 
 /************************************/
+
+@media screen and (max-width:768px) {
+.about_section {
+  padding-top: 12rem;
+}
+}
 
 /************** footer **************/
 
