@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Hind+Siliguri:wght@300;600&family=Titillium+Web:wght@300&display=swap');
 
 :root{
- --ff-header: 'Forum';
+ /* --ff-header: 'Forum'; */
  --fs-header: 4rem;
  --fw-header: 400;
  --ff-paragraph: 'Lato', sans-serif;
@@ -13,11 +13,11 @@
 
 .light-mode {
   --navbar-color: rgba(34, 34, 34, 0)000;
-  --navbar-bg-color: #F0F0F0;  
+  --navbar-bg-color: #a2a1a1;  
 }
 .dark-mode {
   --navbar-color: #FFF;
-  --navbar-bg-color: #000;  
+  /* --navbar-bg-color: #000;   */
 }
 
 
@@ -230,12 +230,13 @@ body {
 
 .about_section p{
   width: 70%;
-  padding-left: 0.8rem;
+  padding-left: 0.4rem;
   font-size: var(--fs-paragraph);
 }
 
 .about_section img{
   width: 25%;
+  margin-left: 1rem;
   border-radius: .4rem;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -248,17 +249,19 @@ body {
 
 .footer{
   display: flex;
-  background-color: #000;
+  background-color: rgb(2, 2, 22);
   color: #FFF;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  font-weight: bolder;
 }
 
 .footer nav ul{
 display: flex;
 flex-direction: row;
 gap: 1rem;
+
 }
 
 /************************************/
