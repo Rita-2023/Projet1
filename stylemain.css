@@ -31,6 +31,7 @@ main {
     height: 100%;
     display: flex;
     align-items: end;
+    overflow: hidden;
 }
 
 .section-main article .bgimg:hover {
@@ -81,8 +82,8 @@ h2 {
 }
 
 h1, h2, h3 {
-    font-family: 'Hind Siliguri' 'sans-serif' !important;
-    font-weight: bolder;
+    font-family: 'Hind Siliguri'!important;
+    font-weight: bolder !important;
 }
 
 
