@@ -43,7 +43,6 @@ main {
 
 .section-main article:first-child {
     width: 95%;
-    align-self: self-start;
     height: 25vh;
 }
 
@@ -84,4 +83,53 @@ h2 {
 h1, h2, h3 {
     font-family: 'Hind Siliguri' 'sans-serif' !important;
     font-weight: bolder;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    header {
+        margin-bottom: 0;
+        max-height: 20vh;
+    }
+
+    .div-hr {
+        display: none;
+    }
+    
+    main {
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+
+    .section-main {
+        flex-direction: column;
+    }
+
+    .section-main article {
+        width: 100%;
+    }
+
+    .section-main article .bgimg:hover {
+        transform: scale(1);
+        padding: 0;
+        align-items: center;
+    }
+
+    .bgimg, .description h3, .description p {
+        justify-content: center !important;
+        align-items: center;
+        padding: 0;
+    }
+
+    .description p {
+        display: none;
+    }
+
+    .section-main article:first-child {
+        height: 15vh;
+        width: 100%;
+    }
+
+
 }
