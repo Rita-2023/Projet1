@@ -19,15 +19,17 @@ function opacityNav(){
    const scrollTop = window.scrollY || document.scrollTop;
    if( scrollTop > lastScrollTop && window.scrollY > 570){
     console.log(window.scrollY);
-    nav.style.backgroundColor = "black";
+    nav.style.backgroundColor = "rgb(2, 2, 22)";
     nav.style.transition = "background-color 0.8s ease";
-    nav.style.boxShadow= "none";
-    nav.style.borderStyle = "none";
+    // nav.style.boxShadow= "10px 5px 10px rgba(2,2, 22, 0.4)";
+    // nav.style.borderBottom = "2px solid rgb(2, 2, 30)";
+    
    }else {
     nav.style.backgroundColor = "transparent";
     nav.style.transition = "all 0.6s ease";
+    // nav.style.borderStyle = "none";
+    // nav.style.borderBottom = "none";
     
-    nav.style.borderBottom = "2px solid back";
    }
   })
 }

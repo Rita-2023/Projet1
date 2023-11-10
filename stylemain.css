@@ -22,7 +22,7 @@ main {
 }
 
 .section-main article .bgimg {
-    background-image: url(https://picsum.photos/200/300);
+    background-image:url(https://picsum.photos/200/300);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,9 +34,10 @@ main {
 }
 
 .section-main article .bgimg:hover {
-    transform: scale(1.1);
-    transition: transform .5s ease;
-    padding: 3.2rem;
+    transform: scale(1.04);
+    transition: transform .8s ease;
+    padding: 0.2rem 3rem;
+
 }
 /* à modifier sur CSS responsive mobile */
 
@@ -80,7 +81,7 @@ h2 {
 }
 
 h1, h2, h3 {
-    font-family: 'Hind Siliguri';
+    font-family: 'Hind Siliguri' 'sans-serif' !important;
     font-weight: bolder;
 }
 
