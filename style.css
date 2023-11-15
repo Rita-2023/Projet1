@@ -247,6 +247,16 @@ text-decoration: underline;
 text-decoration-color: #FFF;
 }
 
+@media screen and (max-width:768px) {
+
+.footer{
+  font-size: 1.1rem;
+}
+.footer nav ul {
+  display: none;
+}
+}
+
 /************************************/
 
 
