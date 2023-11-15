@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Hind+Siliguri:wght@300;600&family=Titillium+Web:wght@300&display=swap');
+
 :root{
- --ff-header: 'Forum';
+ /* --ff-header: 'Forum'; */
  --fs-header: 4rem;
  --fw-header: 400;
  --ff-paragraph: 'Lato', sans-serif;
@@ -8,16 +10,14 @@
 }
 
 /************** navbar **********************/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-
 
 .light-mode {
-  --navbar-color: rgba(34, 34, 34, 0)000;
-  --navbar-bg-color: #F0F0F0;  
+  --navbar-color: rgb(2, 2, 22);
+  /* --navbar-bg-color: #a2a1a1;   */
 }
 .dark-mode {
   --navbar-color: #FFF;
-  --navbar-bg-color: #000;  
+  /* --navbar-bg-color: #000;   */
 }
 
 
@@ -36,32 +36,36 @@ ul {
 body {
   margin:0;
   font-size:var(--font-size);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Hind Siliguri', 'Titillium Web', 'sans-serif';
+  background-color: #fafafafa;
 }
+
+
 .main-content {
   padding:1rem;
 }
 
 .navbar {  
+  background-color: transparent;
   display:flex;
   align-items:center; 
   justify-content:space-between;   
   padding:10px;
-  font-size:1.1rem;
-  background:var(--navbar-bg-color);
   color:var(--navbar-color);
-  font-weight: bolder;
-  
+  font-weight: bolder;  
+  border: none;
 }
 .navbar__links { 
-  display:flex;  
+  display:flex; 
+  font-size:1.1rem;
+  align-items: end; 
+  padding-top: 1.2rem;
 }
 
 .navbar__logo{
-   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
-   border-bottom: 3px solid white;
    line-height: 2.2rem;
-   backdrop-filter: blur(10px);
+   padding-left: 1.2rem; 
+   font-size: 2.1rem;
 }
 .navbar__link { 
   padding:0 10px;
@@ -86,6 +90,7 @@ body {
 } */
 
 @media screen and (max-width:767.98px) {
+  
   .navbar__links { 
     overflow:hidden;
     display:flex;
@@ -95,7 +100,7 @@ body {
     position:absolute;
     top:65px;
     right:0;     
-    background:var(--navbar-bg-color);     
+    background:rgb(2, 2, 22);     
     transform: translateX(110%);
     transition: all .5s ease-in-out;
   }
@@ -140,7 +145,7 @@ body {
     width:45px;
     height:4px;  
     border-radius:3px;
-    background:var(--navbar-color); 
+    background:rgb(2, 2, 22); 
     transition: all .5s ease-in-out;   
   }
   .bar::before, .bar::after {
@@ -205,35 +210,74 @@ body {
 /************************************/
 
 /************** about ***************/
+.about_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 5rem auto;
+}
+
+.about_section article{
+  display: flex;
+  align-items: center;
+}
 
 .about_section h2{
-  font-family: var(--ff-header);
-  font-size: var(--fs-header);
-  font-weight: var(--fw-header);
+  font-weight: bolder;
+  margin: 1.5rem 0;
+
 }
 
 .about_section p{
-  font-family: var(--ff-paragraph);
+  width: 70%;
+  padding-left: 0.4rem;
   font-size: var(--fs-paragraph);
 }
 
+.about_section img{
+  width: 25%;
+  margin-left: 1rem;
+  border-radius: .4rem;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
 /************************************/
+
+@media screen and (max-width:800px) {
+.about_section {
+  padding-top: 14rem;
+  display: flex;
+  flex-direction: column;
+}
+.about_section img{
+  width: 100%;
+
+}
+.about_section p{
+  width: 100%;
+}
+}
 
 /************** footer **************/
 
 .footer{
   display: flex;
-  background-color: #000;
+  background-color: rgb(2, 2, 22);
   color: #FFF;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
+  font-weight: bolder;
 }
 
 .footer nav ul{
 display: flex;
 flex-direction: row;
 gap: 1rem;
+
 padding: 1rem;
 }
 
