@@ -246,15 +246,19 @@ body {
 
 /************************************/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:768px) {
 .about_section {
   padding-top: 14rem;
   display: flex;
   flex-direction: column;
 }
+
+.about_section article {
+  flex-direction: column;
+}
+
 .about_section img{
   width: 100%;
-
 }
 .about_section p{
   width: 100%;
