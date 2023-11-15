@@ -282,6 +282,27 @@ display: flex;
 flex-direction: row;
 gap: 1rem;
 
+padding: 1rem;
+}
+
+.footer li a {
+text-decoration: none;
+color: #FFF;
+}
+
+.footer li a:hover {
+text-decoration: underline;
+text-decoration-color: #FFF;
+}
+
+@media screen and (max-width:768px) {
+
+.footer{
+  font-size: 1.1rem;
+}
+.footer nav ul {
+  display: none;
+}
 }
 
 /************************************/
