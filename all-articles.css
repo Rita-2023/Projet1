@@ -1,10 +1,15 @@
+body{
+    position: relative;
+    height: 200vh;
+}
 .ban{
     min-height:40vh;
     z-index: 10;
     border-bottom: 3px solid black;
     background-image: url("./images/ban-article.jpg");
-    position: relative;
+  
 }
+
 
 /* .ban-top{
     min-height:30vh;
