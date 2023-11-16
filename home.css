@@ -1,0 +1,128 @@
+
+main{
+    min-height: 80vh;
+}
+
+.main-card-1{
+    background-image: url("./images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 28vh;
+}
+
+.main-card-2{
+    background-image: url("./images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 15vh;
+    /* width: 49.68% !important; */
+}
+
+.main-card-3{
+    background-image: url("./images/img3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 15vh;
+    /* width: 49.68% !important; */
+}
+
+.main-card-4{
+    background-image: url("./images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 15vh;
+    /* width: 49.68% !important; */
+}
+
+.main-card-5{
+    background-image: url("./images/img2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    min-height: 15vh;
+    /* width: 49.68% !important; */
+}
+
+main h2, .about-us-section h2{
+   background-color: black;
+   text-transform: uppercase; 
+}
+
+.about-us-btn{
+    background-color: black !important;
+}
+
+  @media screen and(min-width: 360px) and (max-width: 767px) {
+        .main-card-1{
+            min-height: 15vh;
+            width: 95% !important;
+            margin: 0 auto;
+        }
+
+        .row-main-card-1{
+            /* margin-bottom: 0 !important; */
+        }
+
+        .main-container{
+            padding: 0 !important; 
+        }
+
+        .ghost{
+            display: none;
+        }
+
+        .ghost2{
+           visibility: hidden;
+           min-height: 8vh;
+        }
+
+        .ghost-title{
+           visibility: hidden;
+           min-height: 5vh;
+        }
+
+        .carousel-caption h1, .hoverx {
+            display: none !important;
+        }
+
+        .ghost-aboutus-galery{
+            display: none;
+        }
+    
+    }
+
+    
+
+    @media screen and (min-width: 360px) and (max-width: 1100px){
+        .ghost-aboutus{
+            min-height: 60vh !important;
+            margin-bottom: 5rem;
+            }
+        .img-fluid{
+          display: none;
+        }
+
+         .content-section-about-us{
+            display: flex;
+            flex-direction: column !important;
+        }
+
+         .ghost-aboutus-galery{
+            display: none;
+        } 
+
+         .carousel-caption h1, .hoverx {
+            display: none !important;
+        }
+            
+        }
+    

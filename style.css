@@ -20,6 +20,11 @@
   /* --navbar-bg-color: #000;   */
 }
 
+.font-blue{
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(2, 2, 22) !important;
+}
 
 * {
   box-sizing:border-box; 
@@ -37,7 +42,7 @@ body {
   margin:0;
   font-size:var(--font-size);
   font-family: 'Hind Siliguri', 'Titillium Web', 'sans-serif';
-  background-color: #fafafafa;
+  background-color: rgba(216, 216, 216, 0.98) !important;
 }
 
 
@@ -145,7 +150,7 @@ body {
     width:45px;
     height:4px;  
     border-radius:3px;
-    background:rgb(2, 2, 22); 
+    background:white; 
     transition: all .5s ease-in-out;   
   }
   .bar::before, .bar::after {
@@ -154,7 +159,7 @@ body {
     height:4px;
     position:absolute; 
     left:0;  
-    background:var(--navbar-color); 
+    background:white; 
     border-radius:3px;    
     transition: all .5s ease-in-out;
   }
@@ -205,80 +210,24 @@ body {
   .navbar__link:hover > a::after {
     width:100%;
   }
+
 }
 
 /************************************/
 
-/************** about ***************/
-.about_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 70%;
-  margin: 5rem auto;
-}
-
-.about_section article{
-  display: flex;
-  align-items: center;
-}
-
-.about_section h2{
-  font-weight: bolder;
-  margin: 1.5rem 0;
-
-}
-
-.about_section p{
-  width: 70%;
-  padding-left: 0.4rem;
-  font-size: var(--fs-paragraph);
-}
-
-.about_section img{
-  width: 25%;
-  margin-left: 1rem;
-  border-radius: .4rem;
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.3);
-}
-
-
-
-/************************************/
-
-@media screen and (max-width:800px) {
-.about_section {
-  padding-top: 14rem;
-  display: flex;
-  flex-direction: column;
-}
-.about_section img{
-  width: 100%;
-
-}
-.about_section p{
-  width: 100%;
-}
-}
 
 /************** footer **************/
 
-.footer{
-  display: flex;
-  background-color: rgb(2, 2, 22);
-  color: #FFF;
-  align-items: center;
-  flex-direction: column;
-  padding: 2rem;
-  font-weight: bolder;
+ footer{
+
+  background-color: rgb(26, 26, 26);
+  
+} 
+
+.copyright{
+  background: #000 !important;
 }
 
-.footer nav ul{
-display: flex;
-flex-direction: row;
-gap: 1rem;
-
-}
 
 /************************************/
 
