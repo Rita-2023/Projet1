@@ -1,0 +1,86 @@
+/***** header *****/
+header {
+height: 720px;
+justify-content: center;
+width: 100%;
+}
+
+header div {
+min-height: 100%;
+font-family: 'Hind Siliguri'!important;
+}
+
+.ban-article {
+    background-image: url("./images/rustrel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    min-height: 80vh;
+}
+
+@media screen and (max-width:768px) {
+  
+}
+header{
+  max-height: 100vh;
+}
+
+/****************  space  ********************/
+.space1 {
+    min-height: 10vh;
+}
+
+/****************  MAIN  ********************/
+main {
+    width: 70%;
+    margin: 2rem auto;
+    height: 60vh;
+  }
+  
+  .section-article1 .block1 {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .section-article1 .block1 img {
+    width: 47%;
+  }
+
+  .section-article1 .block1 p {
+    width: 47%;
+  }
+
+  .section-article1 .block2 {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .section-article1 .block2 img {
+    width: 47%;
+  }
+
+  .section-article1 .block2 p {
+    width: 47%;
+  }
+
+
+/*** SECTION GALLERY ***/
+.close {
+    font-size: 1.5rem;
+  }
+  
+  .col-12 img {
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 2rem;
+    width: 100%;
+  }
+  
+  .col-12 img:hover {
+    opacity: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+/*** SECTION GALLERY END ***/
