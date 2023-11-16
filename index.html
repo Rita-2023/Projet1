@@ -1,160 +1,230 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet 1</title>
+    <title>Projet 1: homepage</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="stylemain.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
 </head>
 
 <body>
-<!--SECTION NAV-->
- <nav class="navbar dark-mode fixed-top" role="navigation">
-    <div class="navbar__logo"> UNSUSUAL PLACES</div>    
+  <!--SECTION NAV-->
+  <nav class="navbar dark-mode fixed-top" role="navigation">
+    <div class="navbar__logo">
+      UNSUSUAL PLACES</div>
     <ul class="navbar__links">
-      <li class="navbar__link first"><a href="#">TOUS LES ARTICLES</a></li>
-      <li class="navbar__link second"><a href="#">A PROPOS DE NOUS</a></li>
+      <li class="navbar__link first">
+        <a href="articles.html">TOUS LES ARTICLES</a>
+      </li>
+      <li class="navbar__link second">
+        <a href="#">A PROPOS DE NOUS</a>
+      </li>
     </ul>
     <button class="burger">
-      <span class="bar"></span>  
-    </button>   
+      <span class="bar"></span>
+    </button>
   </nav>
-<!--SECTION NAV END-->
+  <!--SECTION NAV END-->
 
-
-<!--SECTION HEADER-->
-<header style="height: 100%">
-<div id="carouselExampleRide" style="max-height: 100% !important;"  class="carousel slide" >
-<div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-  <div class="container">
-      <div style="z-index: 10 !important" class="carousel-caption text-right text-white">
-          <h1 class="fwt-bolder text-white">UNSUAL PLACES TO VISIT</h1>
-          <p class="hoverx fwt-bolder">Lorem, ipsum dolor sit amet consectetur adipisicing!</p>
-          <p class=""><a href="#" class="btn btn-lg btn-light" role="button">voir tous les articles</a></p>
+  <!--SECTION HEADER-->
+  <header style="height: auto" class="mb-lg-5 m-sm-0 m-md-0">
+    <div id="carouselExampleRide" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
-  </div>
-    <div class="carousel-item active"  data-bs-interval="1000">
-      <img src="./images/img1.jpg"  class="d-block w-100" alt="...">
+      <div class="carousel-inner">
+        <div class="container">
+          <div style="z-index: 10 !important" class="carousel-caption text-right text-white">
+            <h1 class="fwt-bolder text-white">The places in the world that you absolutely must visit.</h1>
+            <p class="hoverx fw-bolder">Lorem, ipsum dolor sit amet consectetur adipisicing!</p>
+            <p class="">
+              <a href="#" class="btn btn-lg btn-light" role="button">voir tous les articles</a>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item active" data-bs-interval="500">
+          <img src="./images/img3.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="./images/img2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img src="./images/img1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-item"  data-bs-interval="1000">
-      <img src="./images/img2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item"  data-bs-interval="1000">
-      <img src="./images/img3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</header>
+  </header>
 
+  <!--SECTION HEADER END-->
 
+  <!-- div ghost-->
+  <div class="ghost" style="min-height: 10vh;"></div>
 
-<!--SECTION HEADER END-->
+  <!-- SECTION MAIN ARTICLES-->
+  <main class="my-lg-4 my-md-1 my-sm-1 main-container container-fluid mt-lg-5">
+    <div class="ghost-title"></div>
+    <h2 class="text-center fw-bolder text-white col-md-8 col-lg-6 col-sm-8 py-4 mx-auto rounded shadow-lg ">
+      Top Picks: Les 5 Articles les plus consultés
+    </h2>
+    <section class=" main-section container pt-5 fw-bolder" style="max-height: 45vh; z-index:0 !important;">
+      <div class="row row-main-card-1 mb-lg-4 mb-md-1 mb-sm-1">
+        <a href="" class="link-underline-light">
+          <div class="card main-card-1 p-5 mb-1">
+            <div class="card-body">
+              <h3 class="card-title text-light">Card title</h3>
+              <p class="card-text text-light text-bottom">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="mb-0 d-lg-inline-flex d-md-inline-block d-lg-inline-block">
 
-<!-- SECTION MAIN ARTICLES-->    
-<main class="my-5">
-    <h2>Articles</h2>
-    <section class="section-main">
-        <article>
-            <div class="bgimg">
-            <div class="description">
-                <h3>L'Ouest américain dans Lubéron</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eveniet facere eaque tempore, corrupti, sequi fugit assumenda ducimus sed totam reprehenderit adipisci quod impedit saepe.</p>
+        <div class="card main-card-2 p-5 col-12 col-sm-12 col-md-12 col-lg-6 mb-1 me-2">
+          <div class="card-body align-items-center">
+            <a class="link-underline-light" href="">
+              <h4 class="card-title text-light">Card title</h4>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card main-card-3 p-5 col-12 col-sm-12 col-md-12 col-lg-6 shadow-sm mb-1">
+          <div class="card-body">
+            <a class="link-underline-light" href="">
+              <h4 class="card-title text-light">Card title</h4>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
-            </div>
-        </article>
-        <article>
-            <div class="bgimg">
-              <div class="description">
-                  <h3>Article 2</h3>
-                  <p></p>
-              </div>
-            </div>
-        </article>
-        <article>
-            <div class="bgimg">
-            <div class="description">
-                <h3>Article 3</h3>
-                <p></p>
-            </div>
-            </div>
-            </article>
-        </article>
-        <article>
-            <div class="bgimg">
-            <div class="description">
-                <h3>Article 4</h3>
-                <p></p>
-            </div>
-            </div>
-        </article>
-        <article>
-            <div class="bgimg">
-            <div class="description">
-                <h3>Article 5</h3>
-                <p></p>
-            </div>
-            </div>
-        </article>
+          </a>
+        </div>
+      </div>
+      <div class="mb-0 d-lg-inline-flex d-md-inline-block d-lg-inline-block">
+        <div class="card main-card-4 p-5 col-12 col-sm-12 col-md-12 col-lg-6 shadow-sm mb-1 me-2">
+          <div class="card-body align-items-center">
+            <a class="link-underline-light" href="">
+              <h4 class="card-title text-light">Card title</h4>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </a>
+          </div>
+        </div>
+        <div class="card main-card-5 p-5 col-12 col-sm-12 col-md-12 col-lg-6 shadow-sm mb-1">
+          <div class="card-body">
+            <a class="link-underline-light" href="">
+              <h4 class="card-title text-light">Card title</h4>
+              <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="rounded shadow-lg">
     </section>
-   </main>
-<!-- SECTION MAIN ARTICLES END-->  
-<div class="div-hr">
-   <hr>
-</div>
-<!-- SECTION ABOUT US-->
-    <section class="about_section">
-        <h2>About</h2>
+  </main>
 
-        <article>
-            <p>Notre but ici chez Unusual Places est de partager avec vous tout les endroits et paysages merveilleux que l'on peut voir dans les quatres coins du mondes! 
-                Il y a beaucoup de villes et pays qui ne sont vu que par leur stéréotypes alors qu'elles ont parfois des vues incroyable à voir. 
-                À travers nos articles, venez voyager avec nous et découvrir les paysages du monde! 
-                Et ensuite pourquoi ne pas aller les visiter vous-mêmes après avoir lu un article!
-                </p>
-            <img src="https://www.autourdesvoyages.com/wp-content/uploads/lieu-insolite-660x400.jpg"></img>    
-        </article>
-        
-    </section>
-<!-- SECTION ABOUT US END-->   
+  <!-- SECTION MAIN ARTICLES END d-md-flex d-lg-flex d-sm-block-->
+  <div style="min-height:25vh;" class="ghost-aboutus"></div>
+  <!-- SECTION ABOUT US-->
+  <!--<section class="about-us-section container-fluid py-5"> <h2 class="text-center fw-bolder text-white col-md-8 col-lg-6 col-sm-8 py-4 mx-auto rounded shadow-lg mb-5">A propos de nous</h2> <div class="row content-section-about-us justify-content-between px-5"> <div class="col-lg-6 col-md-12 col-sm-12"> <p class="text-dark mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, elit sapien bibendum sapien, vel bibendum sapien elit vel sapien. Sed euismod, sapien vel bibendum bibendum, elit sapien bibendum sapien, vel bibendum sapien elit vel sapien.</p> <p class="text-dark mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, elit sapien bibendum sapien, vel bibendum sapien elit vel sapien. Sed euismod, sapien vel bibendum bibendum, elit sapien bibendum sapien, vel bibendum sapien elit vel sapien.</p> <a href="#" class="about-us-btn btn btn-lg text-light my-2" role="button">En savoir plus</a> </div> <img src="./images/img1.jpg" alt="" class="img-fluid rounded-3 col-lg-6 col-md-12 col-sm-12 shadow-lg p-0 m-0"> </div> </section>-->
+  <div class="container about-us-section mt-5">
+    <h2 class="text-center fw-bolder text-white col-md-8 col-lg-6 col-sm-8 py-4 mx-auto rounded shadow-lg mb-5">A propos de nous</h2>
+    <!-- Three columns of text below the carousel -->
+    <div style="min-height:10vh;" class="ghost-aboutus-galery"></div>
+    <div class="row mt-5">
+      <div class="col-lg-4 text-center">
+        <img class="rounded-circle" src="https://miro.medium.com/v2/resize:fit:525/1*lyyXmbeoK5JiIBNCnzzjjg.png" alt="Generic placeholder image" width="140" height="140">
+        <h3>E. RITA</h3>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.ac, vestibulum at eros. Praesent commodo cursus magna</p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Plus d'infos &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <img class="rounded-circle" src="https://static.vecteezy.com/system/resources/thumbnails/002/002/332/small_2x/ablack-man-avatar-character-isolated-icon-free-vector.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h3>S. WESLEY</h3>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Plus d'infos &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+      <div class="col-lg-4 text-center">
+        <img class="rounded-circle" src="https://i.pinimg.com/736x/8e/1e/96/8e1e961589e268b64b0839c32265bee4--avatar.jpg" alt="Generic placeholder image" width="140" height="140">
+        <h3>F. HICHAM</h3>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p>
+          <a class="btn btn-secondary" href="#" role="button">Plus d'infos &raquo;</a>
+        </p>
+      </div>
+      <!-- /.col-lg-4 -->
+    </div>
+    <!-- /.row -->
 
-<!-- SECTION FOOTER-->
-<footer class="footer">
-    
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">À propos de nous</a></li>
-            <li><a href="#">Contacter</a></li>
-        </ul>
-    </nav>
+    <!-- START THE FEATURETTES -->
 
-    <p>© Unusual Places 2023</p>
-</footer>
-<!-- SECTION ABOUT US END-->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-<script src="index.js"></script>
+    <hr class="featurette-divider">
+
+    <div style="min-height:15vh;" class="ghost-aboutus-featurette my-5"></div>
+
+    <h3 style="font-size: 2.8rem;" class="text-muted my-5">A visiter egalement...</h3>
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="featurette-heading">First featurette heading.
+          <span class="text-muted">It'll blow your mind.</span></h3>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto shadow-lg rounded" src="./images/img1.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h3 class="featurette-heading">Oh yeah, it's that good.
+          <span class="text-muted">See for yourself.</span></h3>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto shadow-lg rounded" src="./images/img3.jpeg" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h3 class="featurette-heading">And lastly, this one.
+          <span class="text-muted">Checkmate.</span></h3>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto shadow-lg rounded" src="./images/img2.jpg" alt="Generic placeholder image">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+  </div>
+  <!-- /END THE FEATURETTES -->
+  <div style="min-height:10vh;" class="ghost-aboutus-end"></div>
+
+  <!-- /.container -->
+
+  <!-- SECTION ABOUT US END-->
 
 </body>
 
