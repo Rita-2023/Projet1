@@ -4,7 +4,7 @@ main{
 }
 
 .main-card-1{
-    background-image: url("./images/img1.jpg");
+    background-image: url("./images/article1/rustrel.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@ main{
 }
 
 .main-card-2{
-    background-image: url("./images/img2.jpg");
+    background-image: url("./images/article2/corniglia2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,7 @@ main{
 }
 
 .main-card-3{
-    background-image: url("./images/img3.jpeg");
+    background-image: url("./images/article3/islande2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@ main{
 }
 
 .main-card-4{
-    background-image: url("./images/img1.jpg");
+    background-image: url("./images/article5/bagan.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ main{
 }
 
 .main-card-5{
-    background-image: url("./images/img2.jpg");
+    background-image: url("./images/article4/kawahijen6.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
