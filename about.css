@@ -53,6 +53,20 @@ padding: 2rem;
 .card-name p{
    font-size: 1.1rem;
 }
+.socials{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 1rem;
+   padding: 0 0 2rem 0;
+}
+
+.socials i{
+   color: black;
+}
+
+.socials i:hover{
+   color: #d3d4d5;
+}
 
 @media screen and (max-width: 1400px){
    .team{
