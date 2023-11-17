@@ -43,12 +43,18 @@ font-weight: bolder;
   padding-bottom:100px;   /* Hauteur du pied de page */
 }
 
-@media screen and(min-width: 360px) and (max-width: 767px) {
-  .section-article1 {
+@media screen and(max-width: 760px) {
+  /* .block1, .block2 {
     display: flex;
     flex-direction: column;
   }
+
+  .block1 p, .block1 img {
+    width: 100%;
+  } */
 }
+
+
 
 .ban-article0 {
     background-image: url("./images/article1/rustrel.jpg");

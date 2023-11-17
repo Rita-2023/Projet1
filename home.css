@@ -39,6 +39,7 @@ main{
     background-size: cover;
     object-fit: cover;
     min-height: 15vh;
+    /* min-width: 86%!important; */
     /* width: 49.68% !important; */
 }
 
@@ -49,7 +50,12 @@ main{
     background-size: cover;
     object-fit: cover;
     min-height: 15vh;
+    /* min-width: 86%!important; */
     /* width: 49.68% !important; */
+}
+
+.card-body {
+    /* min-width: 100%!important; */
 }
 
 main h2, .about-us-section h2{
