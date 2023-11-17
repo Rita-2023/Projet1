@@ -19,7 +19,7 @@ main{
     background-size: cover;
     object-fit: cover;
     min-height: 15vh;
-    /* width: 49.68% !important; */
+    width: 49.68% !important;
 }
 
 .main-card-3{
@@ -29,7 +29,7 @@ main{
     background-size: cover;
     object-fit: cover;
     min-height: 15vh;
-    /* width: 49.68% !important; */
+    width: 49.68% !important;
 }
 
 .main-card-4{
@@ -40,7 +40,7 @@ main{
     object-fit: cover;
     min-height: 15vh;
     /* min-width: 86%!important; */
-    /* width: 49.68% !important; */
+    width: 49.68% !important;
 }
 
 .main-card-5{
@@ -51,8 +51,9 @@ main{
     object-fit: cover;
     min-height: 15vh;
     /* min-width: 86%!important; */
-    /* width: 49.68% !important; */
+    width: 49.68% !important;
 }
+
 
 .card-body {
     /* min-width: 100%!important; */
@@ -67,10 +68,30 @@ main h2, .about-us-section h2{
     background-color: black !important;
 }
 
-  @media screen and(min-width: 360px) and (max-width: 767px) {
+  @media screen and (max-width: 900px) {
         .main-card-1{
             min-height: 15vh;
-            width: 95% !important;
+            width: 100% !important;
+            margin: 0 auto;
+        }
+          .main-card-2{
+            min-height: 15vh;
+            width: 100% !important;
+            margin: 0 auto;
+        }
+          .main-card-3{
+            min-height: 15vh;
+            width: 100% !important;
+            margin: 0 auto;
+        }
+          .main-card-4{
+            min-height: 15vh;
+            width: 100% !important;
+            margin: 0 auto;
+        }
+          .main-card-5{
+            min-height: 15vh;
+            width: 100% !important;
             margin: 0 auto;
         }
         /* .row-main-card-1{

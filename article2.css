@@ -23,3 +23,21 @@ header {
     object-fit: contain;
     min-height: 80vh;
 }
+
+
+
+@media screen and (max-width:968px) {
+  .block1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .block1 img, .block1 p, .block2 img, .block2 p {
+    width: 100% !important;
+  }
+}
