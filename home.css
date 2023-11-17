@@ -67,40 +67,30 @@ main h2, .about-us-section h2{
             width: 95% !important;
             margin: 0 auto;
         }
-
-        .row-main-card-1{
-            /* margin-bottom: 0 !important; */
-        }
-
+        /* .row-main-card-1{
+            /* margin-bottom: 0 !important; 
+        } */
         .main-container{
             padding: 0 !important; 
         }
-
         .ghost{
             display: none;
         }
-
         .ghost2{
            visibility: hidden;
            min-height: 8vh;
         }
-
         .ghost-title{
            visibility: hidden;
            min-height: 5vh;
         }
-
         .carousel-caption h1, .hoverx {
             display: none !important;
         }
-
         .ghost-aboutus-galery{
             display: none;
         }
-    
-    }
-
-    
+    } 
 
     @media screen and (min-width: 360px) and (max-width: 1100px){
         .ghost-aboutus{
@@ -110,16 +100,13 @@ main h2, .about-us-section h2{
         .img-fluid{
           display: none;
         }
-
-         .content-section-about-us{
+        .content-section-about-us{
             display: flex;
             flex-direction: column !important;
         }
-
          .ghost-aboutus-galery{
             display: none;
         } 
-
          .carousel-caption h1, .hoverx {
             display: none !important;
         }
