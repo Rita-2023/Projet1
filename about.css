@@ -18,8 +18,70 @@ padding: 2rem;
 }
 
 .team figure{
+   display: flex;
    border: 1px solid black;
    background-color: white;
+   border-radius: 10px;
    box-shadow: 0px 8px 15px -2px rgba(0,0,0,0.45);
-   width: 35%
+   width: 35%;
+}
+
+.team figure figcaption{
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.team figure img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   border-radius: 50%;
+   padding: 10px;
+}
+
+.team figure img:nth-child(2){
+   padding: 0;
+}
+
+.card-description{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.card-name p{
+   font-size: 1.1rem;
+}
+.socials{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 1rem;
+   padding: 0 0 2rem 0;
+}
+
+.socials i{
+   color: black;
+}
+
+.socials i:hover{
+   color: #d3d4d5;
+}
+
+@media screen and (max-width: 1400px){
+
+   .team{
+      flex-direction: column;
+      align-items: center;
+   }
+   .team figure{
+      width: 60%;
+      min-width: 400px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   main {
+      margin: 5rem 1rem;
+   }
 }
