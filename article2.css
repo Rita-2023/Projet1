@@ -1,0 +1,25 @@
+/***** header *****/
+header {
+    height: 60px;
+    justify-content: bottom;
+    width: 100%;
+    max-height: 100vh;
+    font-family: var(--bs-body-font-family);
+    }
+    
+    header div {
+    min-height: 100%;
+    margin-top: 60vh;
+    /* font-family: 'Hind Siliguri', 'Titillium Web', sans-serif; */
+    font-weight: bolder;
+    }
+    
+
+.ban-article2 {
+    background-image: url("./images/article2/corniglia2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    min-height: 80vh;
+}

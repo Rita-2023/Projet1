@@ -4,7 +4,7 @@ main{
 }
 
 .main-card-1{
-    background-image: url("./images/img1.jpg");
+    background-image: url("./images/article1/rustrel.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@ main{
 }
 
 .main-card-2{
-    background-image: url("./images/img2.jpg");
+    background-image: url("./images/article2/corniglia2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,7 @@ main{
 }
 
 .main-card-3{
-    background-image: url("./images/img3.jpeg");
+    background-image: url("./images/article3/islande2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,7 +33,7 @@ main{
 }
 
 .main-card-4{
-    background-image: url("./images/img1.jpg");
+    background-image: url("./images/article5/bagan.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -43,7 +43,7 @@ main{
 }
 
 .main-card-5{
-    background-image: url("./images/img2.jpg");
+    background-image: url("./images/article4/kawahijen6.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,40 +67,30 @@ main h2, .about-us-section h2{
             width: 95% !important;
             margin: 0 auto;
         }
-
-        .row-main-card-1{
-            /* margin-bottom: 0 !important; */
-        }
-
+        /* .row-main-card-1{
+            /* margin-bottom: 0 !important; 
+        } */
         .main-container{
             padding: 0 !important; 
         }
-
         .ghost{
             display: none;
         }
-
         .ghost2{
            visibility: hidden;
            min-height: 8vh;
         }
-
         .ghost-title{
            visibility: hidden;
            min-height: 5vh;
         }
-
         .carousel-caption h1, .hoverx {
             display: none !important;
         }
-
         .ghost-aboutus-galery{
             display: none;
         }
-    
-    }
-
-    
+    } 
 
     @media screen and (min-width: 360px) and (max-width: 1100px){
         .ghost-aboutus{
@@ -110,16 +100,13 @@ main h2, .about-us-section h2{
         .img-fluid{
           display: none;
         }
-
-         .content-section-about-us{
+        .content-section-about-us{
             display: flex;
             flex-direction: column !important;
         }
-
          .ghost-aboutus-galery{
             display: none;
         } 
-
          .carousel-caption h1, .hoverx {
             display: none !important;
         }
